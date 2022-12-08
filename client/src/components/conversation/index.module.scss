@@ -1,0 +1,33 @@
+.conversationName {
+    display: block;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.conversationAvatar {
+    background-color: rgb(121, 49, 49);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.conversationLastMessage {
+    word-break: break-all;
+    font-size: 15px;
+    font-weight: 500;
+    color: #868686;
+    flex: 1;
+}
+
+.contentContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.hr {
+    background-color: #242424;
+    height: 1px;
+    border: none;
+    width: 85%;
+}
